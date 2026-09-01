@@ -1,0 +1,152 @@
+{
+  "characters": [
+    {
+      "person": {
+        "name": "Veronica",
+        "lastName": "Estrada",
+        "nickName": "Vero",
+        "favoriteColor": "",
+        "Icono": ""
+      },
+      "emotions": [
+        {
+          "name": "NORMAL",
+          "text": {
+            "speed": "MEDIUM",
+            "size": "MEDIUM"
+          },
+          "image": {
+            "state": "NORMAL"
+          },
+          "voice": {
+            "name": "KEVIN",
+            "emotion": "NORMAL"
+          }
+        },
+        {
+          "name": "HAPPY",
+          "text": {
+            "speed": "MEDIUM",
+            "size": "MEDIUM"
+          },
+          "image": {
+            "state": "HAPPY"
+          },
+          "voice": {
+            "name": "KEVIN",
+            "emotion": "HAPPY"
+          }
+        },
+        {
+          "name": "SAD",
+          "text": {
+            "speed": "SLOW",
+            "size": "SMALL"
+          },
+          "image": {
+            "state": "SAD"
+          },
+          "voice": {
+            "name": "KEVIN",
+            "emotion": "SAD"
+          }
+        },
+        {
+          "name": "ANGRY",
+          "text": {
+            "speed": "FAST",
+            "size": "BIG"
+          },
+          "image": {
+            "state": "ANGRY"
+          },
+          "voice": {
+            "name": "KEVIN",
+            "emotion": "ANGRY"
+          }
+        },
+        {
+          "name": "SCARY",
+          "text": {
+            "speed": "ULTRAFAST",
+            "size": "BIG"
+          },
+          "image": {
+            "state": "SCARY"
+          },
+          "voice": {
+            "name": "KEVIN",
+            "emotion": "SCARY"
+          }
+        }
+      ]
+    },
+    {
+      "person": {
+        "name": "Namgyu",
+        "lastName": "Kim",
+        "nickName": "Namgyu",
+        "favoriteColor": "",
+        "Icono": ""
+      },
+      "emotions": [
+        {
+          "name": "NORMAL",
+          "text": {
+            "speed": "FAST",
+            "size": "MEDIUM"
+          },
+          "image": {
+            "state": "NORMAL"
+          },
+          "voice": {
+            "name": "MAN",
+            "emotion": "NORMAL"
+          }
+        },
+        {
+          "name": "SAD",
+          "text": {
+            "speed": "SLOW",
+            "size": "SMALL"
+          },
+          "image": {
+            "state": "SAD"
+          },
+          "voice": {
+            "name": "MAN",
+            "emotion": "SAD"
+          }
+        },
+        {
+          "name": "ANGRY",
+          "text": {
+            "speed": "FAST",
+            "size": "BIG"
+          },
+          "image": {
+            "state": "ANGRY"
+          },
+          "voice": {
+            "name": "MAN",
+            "emotion": "ANGRY"
+          }
+        },
+        {
+          "name": "SCARY",
+          "text": {
+            "speed": "ULTRAFAST",
+            "size": "BIG"
+          },
+          "image": {
+            "state": "SCARY"
+          },
+          "voice": {
+            "name": "MAN",
+            "emotion": "SCARY"
+          }
+        }
+      ]
+    }
+  ]
+}

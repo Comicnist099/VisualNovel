@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://chmn7h2qdo1lg"]
+
+[ext_resource type="Script" uid="uid://cr461wr3g5ieu" path="res://Scripts/Class/Dialogue/DialogueUIManager.cs" id="1_fpupx"]
+
+[node name="DebugUI" type="Control" unique_id=1207424569]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 15.0
+offset_top = 7.0
+offset_right = 15.0
+offset_bottom = 7.0
+script = ExtResource("1_fpupx")
+
+[node name="Background" type="Panel" parent="." unique_id=623310117]
+layout_mode = 0
+offset_left = 1.0
+offset_top = -1.0
+offset_right = 398.0
+offset_bottom = 59.0
+
+[node name="Speaker" type="Label" parent="Background" unique_id=125161492]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 15.0
+offset_right = 105.0
+offset_bottom = 42.0
+text = "NoDialogo:"
+
+[node name="Button" type="Button" parent="Background" unique_id=2021566485]
+layout_mode = 0
+offset_left = 268.0
+offset_top = 12.0
+offset_right = 373.0
+offset_bottom = 46.0
+text = "Aceptar"
+
+[node name="LineEdit" type="LineEdit" parent="Background" unique_id=1068939744]
+layout_mode = 0
+offset_left = 129.0
+offset_top = 13.0
+offset_right = 254.93549
+offset_bottom = 45.0

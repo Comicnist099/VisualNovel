@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://c4x1iaaevihir"]
+
+[ext_resource type="Script" uid="uid://cr461wr3g5ieu" path="res://Scripts/Class/Dialogue/DialogueUIManager.cs" id="1_obd5m"]
+
+[node name="DialogueUI" type="Control" unique_id=1207424569]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 16.0
+offset_top = 524.0
+offset_right = 16.0
+offset_bottom = 524.0
+script = ExtResource("1_obd5m")
+
+[node name="Background" type="Panel" parent="." unique_id=623310117]
+layout_mode = 0
+offset_left = 1.0
+offset_top = -1.0
+offset_right = 1109.0
+offset_bottom = 107.0
+
+[node name="Speaker" type="Label" parent="Background" unique_id=125161492]
+layout_mode = 0
+offset_left = 10.0
+offset_right = 213.0
+offset_bottom = 27.0
+text = "Speaker:"
+
+[node name="Text" type="Label" parent="Background" unique_id=1587800598]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 25.0
+offset_right = 1086.0
+offset_bottom = 100.0
+autowrap_mode = 2
+
+[node name="ContinueIndicator" type="Label" parent="." unique_id=744527493]
+layout_mode = 0
+offset_left = 1088.0
+offset_top = 82.0
+offset_right = 1105.0
+offset_bottom = 105.0
+text = ">"

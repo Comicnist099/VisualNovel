@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cmwdw8kgbef6b"]
+
+[ext_resource type="Script" uid="uid://dvdbegiaifuvq" path="res://Scripts/Node2d.cs" id="1_drhme"]
+
+[node name="Node2D" type="Node2D" unique_id=2099631247]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=916144990]
+script = ExtResource("1_drhme")
