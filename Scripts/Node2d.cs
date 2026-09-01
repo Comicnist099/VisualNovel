@@ -92,7 +92,7 @@ public partial class Node2d : Node2D
 
 
 		GD.Print(
-			"✅ DialogueUI.tscn cargado"
+			"DialogueUI.tscn cargado"
 		);
 
 
