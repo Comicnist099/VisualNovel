@@ -1,6 +1,7 @@
 using Godot;
 using Scripts.Data;
 using Scripts.Dictionaries.Text;
+using Scripts.Enums.Fonts;
 using Scripts.Enums.Speakers;
 using Scripts.Enums.Text;
 using System;
@@ -114,5 +115,18 @@ namespace Scripts.Data.Class.Dialogue
 			visibleCharacters = 0;
 			textTimer = 0f;
 		}
-	}
+
+        public Font GetFont()
+        {
+			FontNames fontName = Enum.Parse<FontNames>("DEFAULT"); 
+			if(emotionData.text.font != null)
+			{
+				fontName = 
+				Enum.Parse<FontNames>(
+						emotionData.text.font
+					);
+			}  
+			return FontDictionary.Fonts[fontName];
+        }
+    }
 }
