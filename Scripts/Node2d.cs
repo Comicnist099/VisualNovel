@@ -232,6 +232,10 @@ public partial class Node2d : Node2D
 			dialogue.GetSize()
 		);
 
+		dialogueUI.SetTextFont(
+			dialogue.GetFont()
+		);
+
 
 		dialogueUI.SetText(
 			dialogue.GetVisibleText()

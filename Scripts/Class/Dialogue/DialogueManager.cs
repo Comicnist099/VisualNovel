@@ -303,5 +303,17 @@ namespace Scripts.Data.Class.Dialogue
 
             return contentManager.GetVisibleText();
         }
+
+        public Font GetFont()
+        {
+            if (dialogueData.Length == 0)
+                return null; // CAMBIAR
+
+            if (contentManager == null)
+                return null;
+
+            return contentManager.GetFont();
+        }
+
     }
 }

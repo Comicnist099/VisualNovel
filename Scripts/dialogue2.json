@@ -1,0 +1,137 @@
+{
+  "dialogue": [
+    {
+      "speaker": {
+        "name": "Veronica",
+        "emotion": "NORMAL",
+        "text": "Namgyu, quería hablar contigo de algo importante. Últimamente he estado pensando mucho en nosotros."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Namgyu",
+        "emotion": "NORMAL",
+        "text": "Yo también, Veronica. No sé por qué, pero siento que últimamente estamos más unidos que nunca."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Veronica",
+        "emotion": "HAPPY",
+        "text": "Es porque te amo, Namgyu. Cada vez que estoy contigo siento que todo está bien."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Namgyu",
+        "emotion": "NORMAL",
+        "text": "Yo también te amo. Cuando sonríes así, haces que hasta mis días más difíciles se vuelvan felices."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Veronica",
+        "emotion": "SAD",
+        "text": "Pero tengo miedo de que algún día todo esto termine. No quiero perderte."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Namgyu",
+        "emotion": "SAD",
+        "text": "No digas eso... Yo tampoco quiero perderte. Solo imaginar una vida sin ti me pone muy triste."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Veronica",
+        "emotion": "ANGRY",
+        "text": "¡Entonces demuéstramelo! A veces siento que no te importa lo suficiente lo que tenemos."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Namgyu",
+        "emotion": "ANGRY",
+        "text": "¡Claro que me importa! ¡Me importa más de lo que imaginas! No puedes pensar que no te amo solo porque a veces no sé cómo demostrarlo."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Veronica",
+        "emotion": "SAD",
+        "text": "Perdóname... No quería lastimarte. Es solo que te quiero tanto que me asusta perderte."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Namgyu",
+        "emotion": "NORMAL",
+        "text": "Ven aquí. No necesitamos pelear. Podemos hablar y resolver las cosas juntos."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Veronica",
+        "emotion": "SCARY",
+        "text": "Namgyu... ¿escuchaste eso? Creo que alguien está afuera."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Namgyu",
+        "emotion": "SCARY",
+        "text": "Sí... escuché algo. No te preocupes, estoy contigo. No voy a dejar que te pase nada."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Veronica",
+        "emotion": "SCARY",
+        "text": "Tengo mucho miedo... No me sueltes, por favor."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Namgyu",
+        "emotion": "SCARY",
+        "text": "Nunca. Aunque tenga miedo, me quedaré a tu lado."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Veronica",
+        "emotion": "HAPPY",
+        "text": "Ya no tengo miedo. Mientras estés conmigo, siento que puedo enfrentar cualquier cosa."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Namgyu",
+        "emotion": "NORMAL",
+        "text": "Y mientras tú estés conmigo, siempre tendré una razón para seguir adelante."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Veronica",
+        "emotion": "NORMAL",
+        "text": "Entonces prométeme algo. Pase lo que pase, nunca dejaremos de hablar cuando tengamos problemas."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Namgyu",
+        "emotion": "SCARY",
+        "text": "Te lo prometo. Porque te amo, Veronica. Y quiero estar contigo en los días felices, en los tristes, en los difíciles y hasta en los momentos que nos den miedo."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Veronica",
+        "emotion": "HAPPY",
+        "text": "Yo también te amo, Namgyu. Y ahora sé que no importa qué emoción sintamos, mientras estemos juntos podremos superarlo."
+      }
+    }
+  ]
+}

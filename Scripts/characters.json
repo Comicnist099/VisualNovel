@@ -13,7 +13,8 @@
           "name": "NORMAL",
           "text": {
             "speed": "MEDIUM",
-            "size": "MEDIUM"
+            "size": "MEDIUM",
+            "font": "RENOGARE"
           },
           "image": {
             "state": "NORMAL"

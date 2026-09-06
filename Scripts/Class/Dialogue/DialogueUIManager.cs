@@ -1,3 +1,4 @@
+using System;
 using Godot;
 
 public partial class DialogueUIManager : Control
@@ -61,6 +62,13 @@ public partial class DialogueUIManager : Control
 		);
 	}
 
+
+	public void SetTextFont(
+		Font fontObject
+	)
+	{ 
+		text.AddThemeFontOverride("font", fontObject);
+	}
 
 	public void SetText(
 		string value

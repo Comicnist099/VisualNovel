@@ -4,133 +4,63 @@
       "speaker": {
         "name": "Veronica",
         "emotion": "NORMAL",
-        "text": "Namgyu, quería hablar contigo de algo importante. Últimamente he estado pensando mucho en nosotros."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Namgyu",
-        "emotion": "NORMAL",
-        "text": "Yo también, Veronica. No sé por qué, pero siento que últimamente estamos más unidos que nunca."
+        "text": "HOLA, ESTA ES LA PRUEBA DE VERONICA EN ESTADO NORMAL."
       }
     },
     {
       "speaker": {
         "name": "Veronica",
         "emotion": "HAPPY",
-        "text": "Es porque te amo, Namgyu. Cada vez que estoy contigo siento que todo está bien."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Namgyu",
-        "emotion": "NORMAL",
-        "text": "Yo también te amo. Cuando sonríes así, haces que hasta mis días más difíciles se vuelvan felices."
+        "text": "HOLA, ESTA ES LA PRUEBA DE VERONICA EN ESTADO FELIZ."
       }
     },
     {
       "speaker": {
         "name": "Veronica",
         "emotion": "SAD",
-        "text": "Pero tengo miedo de que algún día todo esto termine. No quiero perderte."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Namgyu",
-        "emotion": "SAD",
-        "text": "No digas eso... Yo tampoco quiero perderte. Solo imaginar una vida sin ti me pone muy triste."
+        "text": "HOLA, ESTA ES LA PRUEBA DE VERONICA EN ESTADO TRISTE."
       }
     },
     {
       "speaker": {
         "name": "Veronica",
         "emotion": "ANGRY",
-        "text": "¡Entonces demuéstramelo! A veces siento que no te importa lo suficiente lo que tenemos."
+        "text": "HOLA, ESTA ES LA PRUEBA DE VERONICA EN ESTADO ENOJADO."
+      }
+    },
+     {
+      "speaker": {
+        "name": "Veronica",
+        "emotion": "SCARY",
+        "text": "HOLA, ESTA ES LA PRUEBA DE VERONICA EN ESTADO MIEDOSO."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Namgyu",
+        "emotion": "NORMAL",
+        "text": "HOLA, ESTA ES LA PRUEBA DE NAMGYU EN ESTADO NORMAL."
+      }
+    },
+    {
+      "speaker": {
+        "name": "Namgyu",
+        "emotion": "SAD",
+        "text": "HOLA, ESTA ES LA PRUEBA DE NAMGYU EN ESTADO TRISTE."
       }
     },
     {
       "speaker": {
         "name": "Namgyu",
         "emotion": "ANGRY",
-        "text": "¡Claro que me importa! ¡Me importa más de lo que imaginas! No puedes pensar que no te amo solo porque a veces no sé cómo demostrarlo."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Veronica",
-        "emotion": "SAD",
-        "text": "Perdóname... No quería lastimarte. Es solo que te quiero tanto que me asusta perderte."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Namgyu",
-        "emotion": "NORMAL",
-        "text": "Ven aquí. No necesitamos pelear. Podemos hablar y resolver las cosas juntos."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Veronica",
-        "emotion": "SCARY",
-        "text": "Namgyu... ¿escuchaste eso? Creo que alguien está afuera."
+        "text": "HOLA, ESTA ES LA PRUEBA DE NAMGYU EN ESTADO ENOJADO."
       }
     },
     {
       "speaker": {
         "name": "Namgyu",
         "emotion": "SCARY",
-        "text": "Sí... escuché algo. No te preocupes, estoy contigo. No voy a dejar que te pase nada."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Veronica",
-        "emotion": "SCARY",
-        "text": "Tengo mucho miedo... No me sueltes, por favor."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Namgyu",
-        "emotion": "SCARY",
-        "text": "Nunca. Aunque tenga miedo, me quedaré a tu lado."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Veronica",
-        "emotion": "HAPPY",
-        "text": "Ya no tengo miedo. Mientras estés conmigo, siento que puedo enfrentar cualquier cosa."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Namgyu",
-        "emotion": "NORMAL",
-        "text": "Y mientras tú estés conmigo, siempre tendré una razón para seguir adelante."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Veronica",
-        "emotion": "NORMAL",
-        "text": "Entonces prométeme algo. Pase lo que pase, nunca dejaremos de hablar cuando tengamos problemas."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Namgyu",
-        "emotion": "SCARY",
-        "text": "Te lo prometo. Porque te amo, Veronica. Y quiero estar contigo en los días felices, en los tristes, en los difíciles y hasta en los momentos que nos den miedo."
-      }
-    },
-    {
-      "speaker": {
-        "name": "Veronica",
-        "emotion": "HAPPY",
-        "text": "Yo también te amo, Namgyu. Y ahora sé que no importa qué emoción sintamos, mientras estemos juntos podremos superarlo."
+        "text": "HOLA, ESTA ES LA PRUEBA DE NAMGYU EN ESTADO MIEDOSO."
       }
     }
   ]
