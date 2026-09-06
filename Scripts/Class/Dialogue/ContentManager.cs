@@ -119,7 +119,7 @@ namespace Scripts.Data.Class.Dialogue
         public Font GetFont()
         {
 			FontNames fontName = Enum.Parse<FontNames>("DEFAULT"); 
-			if(emotionData.text.font != null)
+			if(emotionData.text.font != null && emotionData.text.font.Length > 0)
 			{
 				fontName = 
 				Enum.Parse<FontNames>(
