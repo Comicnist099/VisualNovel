@@ -1,4 +1,8 @@
+using System;
+using Godot;
 using Scripts.Data;
+using Scripts.Dictionaries.Text;
+using Scripts.Enums.Text;
 
 namespace Scripts.Data.Class.Dialogue
 {
@@ -20,5 +24,19 @@ namespace Scripts.Data.Class.Dialogue
         {
             return characterData.person.nickname;
         }
+
+        public Color GetFavoriteColor()
+        {
+            ColorNames colorName = Enum.Parse<ColorNames>("DEFAULT"); 
+			if(characterData.person.favoriteColor != null && characterData.person.favoriteColor.Length > 0)
+			{
+				colorName = 
+				Enum.Parse<ColorNames>(
+						characterData.person.favoriteColor
+					);
+			}  
+			return ColorDictionary.Color[colorName];
+        }
+
     }
 }

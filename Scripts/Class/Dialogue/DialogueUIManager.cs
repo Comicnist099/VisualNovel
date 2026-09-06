@@ -51,6 +51,13 @@ public partial class DialogueUIManager : Control
 		speaker.Text = value;
 	}
 
+	public void SetSpeakerFavoriteColor(
+		Color value
+	)
+	{
+		speaker.AddThemeColorOverride("font_color", value);
+	}
+
 
 	public void SetTextSize(
 		int size
@@ -76,4 +83,5 @@ public partial class DialogueUIManager : Control
 	{
 		text.Text = value;
 	}
+ 
 }

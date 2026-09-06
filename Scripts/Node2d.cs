@@ -236,6 +236,9 @@ public partial class Node2d : Node2D
 			dialogue.GetFont()
 		);
 
+		dialogueUI.SetSpeakerFavoriteColor(
+			dialogue.GetFavoriteColor()
+		);
 
 		dialogueUI.SetText(
 			dialogue.GetVisibleText()

@@ -307,12 +307,23 @@ namespace Scripts.Data.Class.Dialogue
         public Font GetFont()
         {
             if (dialogueData.Length == 0)
-                return null; // CAMBIAR
+                return null; // TODO: DEFAULTS
 
             if (contentManager == null)
                 return null;
 
             return contentManager.GetFont();
+        }
+
+        public Color GetFavoriteColor()
+        {
+            if (dialogueData.Length == 0)
+                return new Color(); // TODO: DEFAULTS
+
+            if (speakerManager == null)
+                return new Color(); // TODO: DEFAULTS
+
+            return speakerManager.GetFavoriteColor();
         }
 
     }
