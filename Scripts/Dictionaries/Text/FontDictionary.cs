@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using Godot;
-using Scripts.Enums.Fonts;
-using Scripts.Enums.Text;
+using Scripts.Enums.Fonts; 
 
 namespace Scripts.Dictionaries.Text
 {

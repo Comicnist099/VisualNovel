@@ -5,10 +5,17 @@ public partial class DialogueUIManager : Control
 {
 	private Label speaker;
 	private Label text;
+	private TextureRect icon;
 
 
 	public override void _Ready()
 	{
+
+		icon = 
+			GetNode<TextureRect>(
+				"Background/Icon"
+				);
+
 		speaker =
 			GetNode<Label>(
 				"Background/Speaker"
@@ -36,11 +43,22 @@ public partial class DialogueUIManager : Control
 			return;
 		}
 
+		if(icon == null)
+		{
+			GD.PrintErr(
+				"Icon TextureRect es NULL"
+			);
+			return;
+		}
+
 		speaker.Text =
 			"PRUEBA";
 
 		text.Text =
 			"HOLA MUNDO";
+
+		icon.Texture = new Texture2D();
+
 	}
 
 
@@ -82,6 +100,13 @@ public partial class DialogueUIManager : Control
 	)
 	{
 		text.Text = value;
+	}
+
+	public void SetIcon(
+		Texture2D value
+	)
+	{
+		icon.Texture = value;
 	}
  
 }

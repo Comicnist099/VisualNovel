@@ -306,7 +306,7 @@ namespace Scripts.Data.Class.Dialogue
 
         public Font GetFont()
         {
-            if (dialogueData.Length == 0)
+            if (characterData.Length == 0)
                 return null; // TODO: DEFAULTS
 
             if (contentManager == null)
@@ -317,7 +317,7 @@ namespace Scripts.Data.Class.Dialogue
 
         public Color GetFavoriteColor()
         {
-            if (dialogueData.Length == 0)
+            if (characterData.Length == 0)
                 return new Color(); // TODO: DEFAULTS
 
             if (speakerManager == null)
@@ -326,5 +326,15 @@ namespace Scripts.Data.Class.Dialogue
             return speakerManager.GetFavoriteColor();
         }
 
+        public Texture2D GetIcon()
+        {
+            if (characterData.Length == 0)
+                return new Texture2D(); // TODO: DEFAULTS
+
+            if (speakerManager == null)
+                return new Texture2D(); // TODO: DEFAULTS
+
+            return speakerManager.GetIcon();
+        }
     }
 }

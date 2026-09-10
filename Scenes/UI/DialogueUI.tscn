@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c4x1iaaevihir"]
 
 [ext_resource type="Script" uid="uid://cr461wr3g5ieu" path="res://Scripts/Class/Dialogue/DialogueUIManager.cs" id="1_obd5m"]
+[ext_resource type="Texture2D" uid="uid://dsbkufutgg3vn" path="res://Assets/Icons/TEST/TEST_NUM1.png" id="2_i7egk"]
 
 [node name="DialogueUI" type="Control" unique_id=1207424569]
 layout_mode = 3
@@ -20,18 +21,28 @@ offset_bottom = 107.0
 
 [node name="Speaker" type="Label" parent="Background" unique_id=125161492]
 layout_mode = 0
-offset_left = 10.0
-offset_right = 213.0
-offset_bottom = 27.0
+offset_left = 84.0
+offset_top = 7.0
+offset_right = 287.0
+offset_bottom = 34.0
 text = "Speaker:"
 
 [node name="Text" type="Label" parent="Background" unique_id=1587800598]
 layout_mode = 0
-offset_left = 10.0
-offset_top = 25.0
-offset_right = 1086.0
-offset_bottom = 100.0
+offset_left = 84.0
+offset_top = 35.0
+offset_right = 1077.0
+offset_bottom = 99.351944
+text = "..."
 autowrap_mode = 2
+
+[node name="Icon" type="TextureRect" parent="Background" unique_id=1448624020]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 8.0
+offset_right = 73.0
+offset_bottom = 68.0
+texture = ExtResource("2_i7egk")
 
 [node name="ContinueIndicator" type="Label" parent="." unique_id=744527493]
 layout_mode = 0

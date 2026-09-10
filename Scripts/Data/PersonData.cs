@@ -6,6 +6,6 @@ namespace Scripts.Data
 		public string lastname { get; set; } 
 		public string nickname { get; set; } 
 		public string favoriteColor { get; set; } 
-		public string icono { get; set; } 
+		public string icon { get; set; } 
 	} 
 }
