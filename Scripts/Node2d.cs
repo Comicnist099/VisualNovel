@@ -243,5 +243,9 @@ public partial class Node2d : Node2D
 		dialogueUI.SetText(
 			dialogue.GetVisibleText()
 		);
+
+		dialogueUI.SetIcon(
+			dialogue.GetIcon()
+		);
 	}
 }

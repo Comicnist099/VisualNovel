@@ -38,5 +38,17 @@ namespace Scripts.Data.Class.Dialogue
 			return ColorDictionary.Color[colorName];
         }
 
+        public Texture2D GetIcon()
+        { 
+            IconFileNames iconFile = Enum.Parse<IconFileNames>("DEFAULT"); 
+			if(characterData.person.icon != null && characterData.person.icon.Length > 0)
+			{
+				iconFile = 
+				Enum.Parse<IconFileNames>(
+						characterData.person.icon
+					); 
+			}  
+			return IconFilenameDictionary.Texture[iconFile];
+        }
     }
 }

@@ -6,7 +6,7 @@
         "lastName": "Estrada",
         "nickName": "Vero",
         "favoriteColor": "",
-        "Icono": ""
+        "icon": "NUM1"
       },
       "emotions": [
         {
@@ -87,7 +87,7 @@
         "name": "Namgyu",
         "lastName": "Kim",
         "nickName": "Namgyu", 
-        "Icono": ""
+        "icon": "NUM2"
       },
       "emotions": [
         {

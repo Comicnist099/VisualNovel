@@ -4,6 +4,6 @@ namespace Scripts.Data
 	{
 		public string name { get; set; } 
 		public string emotion { get; set; } 
-		public string text { get; set; } 
+		public string text { get; set; }  
 	} 
 }
